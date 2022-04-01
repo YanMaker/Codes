@@ -9,3 +9,6 @@ Click [here](https://github.com/YanMaker/Codes/tree/main/C++) for C++.
 
 # Python
 Click [here](https://github.com/YanMaker/Codes/tree/main/Python) for Python.
+
+# Notes
+Click [here](https://github.com/YanMaker/Codes/tree/main/Notes) for the Notes.
