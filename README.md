@@ -11,4 +11,4 @@ Click [here](https://github.com/YanMaker/Codes/tree/main/C++) for C++.
 Click [here](https://github.com/YanMaker/Codes/tree/main/Python) for Python.
 
 # Notes
-Click [here](https://github.com/YanMaker/Codes/tree/main/HTML/Notes.txt) for the HTML notes.
+[HTML](https://github.com/YanMaker/Codes/tree/main/HTML/Notes.txt)
