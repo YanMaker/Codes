@@ -1,3 +1,4 @@
 Debugging:
 
-Make sure to make websites accessible to all. 
+Make sure to make websites accessible to all.
+Temporary changes can be made directly in the DOM (Developer Tools).
