@@ -1,3 +1,5 @@
+These were created when I decided to speed-run teh whole course.
+
 Debugging:
 
 Make sure to make websites accessible to all.
