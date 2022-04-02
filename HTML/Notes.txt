@@ -1,8 +1,17 @@
 These were created when I decided to speed-run teh whole course.
 
-Debugging:
+Module 4 (Debugging):
 
 Make sure to make websites accessible to all.
 Temporary changes can be made directly in the DOM (Developer Tools).
 The order of the box model is MARGIN-->BORDER-->PADDING-->CONTENT. The padding is encompassed by the border, and the margin lies invisible beyond the border.
 You can change the individual weight for margins, borders, and paddings in the box model.
+
+Module 5:
+
+Avoid using lots of tables because they:
+    ~ Are not screen-reader friendly
+    ~ Make the file HUGE
+    ~ Are not semantically correct because of lack of content
+    ~ Make redesigning harder
+    ~ CSS is easier to maintain
