@@ -8,14 +8,17 @@
     <title>Learning to Code</title>
     <style>
       #p1 {
-          font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+          font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Open Sans, Helvetica Neue, sans-serif;
           }
       #p2 {
-          font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+          font-family: Helvetica, Arial, serif;
           }
       table, caption, th, td{
         border: 2px solid black;
+        border-collapse: collapse;
         text-align: center;
+        padding: 1rem;
+        color: black;
       }
       #name{
         background-color: red;
@@ -26,7 +29,32 @@
       #grade{
         background-color: blue;
       }
+      caption{
+        background-color: aqua;
+      }
+      table.eg1 tr:nth-child(even) { 
+        background-color: #ccff99; 
+      }
+      table.eg1 tr:nth-child(odd) { 
+        background-color: #e299ff; 
+      }
       
+      table.eg2 tr:hover { 
+        background-color: #0fa7ff; 
+      }
+      table.eg2 tr:not(:hover) {
+        background-color: white;
+      }
+      table{
+        margin-left: auto;
+        margin-right: auto;
+        
+      }
+      div>p{
+        text-align: center;
+      }
+      
+
     </style>
   </head>
   <body>
@@ -75,7 +103,7 @@
     <a href="learntocode.txt" download="testdownload">Click to Download</a>
     <br>
     <br>
-
+    <div class="tables">
     <table>
       <caption>
         <p>Table 1.0</p>
@@ -111,6 +139,61 @@
       <td>2 Grades</td>
     </tfoot>
     </table>
+
+    <p>Here's another table with zebra colors.</p>
+    
+    <table class="eg1">
+        <tbody>
+          <tr>
+            <th class="eg1">Name</th>
+            <th class="eg1">Age</th>
+            <th class="eg1">Gender</th>
+          </tr>
+          <tr>
+            <td class="eg1">Michael</td>
+            <td class="eg1">21</td>
+            <td class="eg1">Male</td>
+          </tr>
+          <tr>
+            <td class="eg1">Amy</td>
+            <td class="eg1">37</td>
+            <td class="eg1">Female</td>
+          </tr>
+          <tr>
+            <td class="eg1">Mark</td>
+            <td class="eg1">32</td>
+            <td class="eg1">Male</td>
+          </tr>
+    </table>
+      
+    <p>Hover over the cells of this one.</p>
+
+    <table class="eg2">
+      <tr>
+        <th class="eg2">Name</th>
+        <th class="eg2">Age</th>
+        <th class="eg2">Gender</th>
+      </tr>
+      <tr>
+        <td class="eg2">Michael</td>
+        <td class="eg2">21</td>
+        <td class="eg2">Male</td>
+      </tr>
+      <tr>
+        <td class="eg2">Amy</td>
+        <td class="eg2">37</td>
+        <td class="eg2">Female</td>
+      </tr>
+      <tr>
+        <td class="eg2">Mark</td>
+        <td class="eg2">32</td>
+        <td class="eg2">Male</td>
+      </tr>
+    </table>
+
+    <p>See Module 5.2.5 for more interactions.</p>
+
+    </div>
     
   </body>
 </html>
