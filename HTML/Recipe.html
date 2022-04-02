@@ -4,6 +4,7 @@
   <meta charset="utf-8">
   <title>How to Make Guacamole</title>
   <style>
+    
     body {
       background: white;
       color: black;
@@ -19,27 +20,42 @@
     .header {
       background: lightgreen;
       color: brown;
+      border: 3px solid green;
       text-align: center;
       margin: 10px;
     }
 
-    .image {
+    #image {
       display: block;
       margin-left: auto;
       margin-right: auto;
+      margin-top: 30px;
+      border: 5px solid green;
     }
-
+    /*
+      This part is going to be overruled by the
+      id tag because it is more specific.
+    */
+    img{
+      border: 4000000000px;
+    }
+    /*
+      That's why the border is not huge.
+    */
     h6 {
       text-align: center;
     }
 
     ul {
       list-style-type: circle;
+      padding-left: 60px;
     }
 
     ol {
       list-style-type: upper-roman;
+      padding-left: 50px;
     }
+
   </style>
 </head>
 
@@ -48,9 +64,7 @@
     <h1> How to Make Guacamole </h1>
   </nav>
   <h3 class="header"> Ingredients:</h3>
-  <ul style="
-    padding-left: 60px;
-">
+  <ul>
     <li> 2 avocados
     </li>
     <li> 1 lime
@@ -65,10 +79,8 @@
     </li>
   </ul>
 
-  <h3 class="header"> Steps: </h3>
-  <ol style="
-    padding-left: 45px;
-">
+  <h3 class="header" id="steps"> Steps: </h3>
+  <ol>
     <li> Peel the avocados and plant the pit to have your own avocado plant.
       Then, mash the avocados in a bowl.
     </li>
@@ -84,9 +96,7 @@
     </li>
   </ol>
   <img src="https://upload.wikimedia.org/wikipedia/commons/7/77/2018-02-01-Guacamole_mit_Nachos-7937.jpg"
-    alt="Guacamole" width="400" class="image" style="
-    margin-top: 30px;
-">
+    alt="Guacamole" width="400" id="image">
   <h6>"File:2018-02-01-Guacamole mit Nachos-7937.jpg" by Superbass is marked under CC0 1.0</h6>
 
 </body>
