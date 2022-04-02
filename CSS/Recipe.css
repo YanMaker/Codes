@@ -1,0 +1,58 @@
+body {
+    background: white;
+    color: black;
+}
+
+nav {
+    background: green;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+
+.header {
+    background: lightgreen;
+    color: brown;
+    border: 3px solid green;
+    text-align: center;
+    margin: 10px;
+}
+
+#image {
+    display: block;
+    padding: 7px;
+    border: 5px solid green;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+
+}
+
+/*
+      This part is going to be overruled by the
+      id tag because it is more specific.
+    */
+img {
+    border: 4000000000px;
+}
+
+/*
+      That's why the border is not huge.
+    */
+h6 {
+    text-align: center;
+}
+
+ul {
+    list-style-type: circle;
+    padding-left: 60px;
+}
+
+ol {
+    list-style-type: upper-roman;
+    padding-left: 50px;
+}
+
+li {
+    margin-bottom: 3px;
+}
