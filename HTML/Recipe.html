@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -8,21 +9,36 @@
     body {
       background: white;
       color: black;
+      font-size: 120%;
     }
 
     nav {
+      left: 0;
+      top: 0;
       background: green;
       color: white;
       text-align: center;
-      font-size: 30px;
+      position: fixed;
+      width: 100%;
+    }
+
+    article{
+      margin-left: 40px;
+      min-width: 30rem;
+      max-width: 50rem;
+      margin: auto;
     }
 
     .header {
       background: lightgreen;
       color: brown;
       text-align: center;
-      margin: 10px;
+      margin-top: 90px;
       border: 3px solid green;
+    }
+
+    #steps{
+      margin-top: 30px;
     }
 
     #image {
@@ -49,19 +65,22 @@
     h6 {
       text-align: center;
     }
+    
     table{
       margin-left: 30px;
       border-collapse: collapse;
     }
+    
     tr{
       border-bottom: 1px solid gray;
     }
+   
     td.number{
       color: green;
-      font-size: medium;
       text-align: left;
       padding-right: 15px;
     }
+   
     td.ingredient{
       text-align: right;
       padding-left: 15px;
@@ -83,6 +102,7 @@
   <nav>
     <h1> How to Make Guacamole </h1>
   </nav>
+  <article>
   <h3 class="header"> Ingredients:</h3>
   <table>
     <tr>
@@ -128,8 +148,10 @@
   </ol>
   <img src="https://upload.wikimedia.org/wikipedia/commons/7/77/2018-02-01-Guacamole_mit_Nachos-7937.jpg"
     alt="Guacamole" width="400" id="image">
+  </article>
+  <footer>
   <h6>"File:2018-02-01-Guacamole mit Nachos-7937.jpg" by Superbass is marked under CC0 1.0</h6>
-
+  </footer>
 </body>
 
 </html>
