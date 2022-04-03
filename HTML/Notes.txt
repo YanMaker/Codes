@@ -14,7 +14,7 @@ Avoid using lots of tables because they:
     ~ Make the file HUGE
     ~ Are not semantically correct because of lack of content
     ~ Make redesigning harder
-    ~ CSS is easier to maintain
+    ~ More complicated to maintain than CSS
 
 Module 6
 
