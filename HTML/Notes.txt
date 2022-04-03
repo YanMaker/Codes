@@ -18,3 +18,4 @@ Avoid using lots of tables because they:
 
 Module 6
 
+Best practice: use both a horizontal and a vertical positioning property on every fixed positioned element.
