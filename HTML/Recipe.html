@@ -50,9 +50,22 @@
       text-align: center;
     }
 
-    ul {
-      list-style-type: circle;
-      padding-left: 60px;
+    table{
+      margin-left: 50px;
+      border-collapse: collapse;
+    }
+    tr{
+      border-bottom: 1px solid gray;
+    }
+    td.number{
+      color: green;
+      font-size: medium;
+      text-align: left;
+      padding-right: 15px;
+    }
+    td.ingredient{
+      text-align: right;
+      padding-left: 15px;
     }
 
     ol {
@@ -63,9 +76,6 @@
     li{
       margin-bottom: 3px;
     }
-    b{
-      color: green;
-    }
 
   </style>
 </head>
@@ -75,21 +85,32 @@
     <h1> How to Make Guacamole </h1>
   </nav>
   <h3 class="header"> Ingredients:</h3>
-  <ul>
-    <li> <b>2</b> avocados
-    </li>
-    <li> <b>1</b> lime
-    </li>
-    <li> <b>2</b> tomatoes
-    </li>
-    <li> Cilantro
-    </li>
-    <li> Black pepper
-    </li>
-    <li> Salt
-    </li>
-  </ul>
-
+  <table>
+    <tr>
+      <td class="number">2</td>
+      <td class="ingredient">Avocadoes</td>
+    </tr>
+    <tr>
+      <td class="number">1</td>
+      <td class="ingredient">Lime</td>
+    </tr>
+    <tr>
+      <td class="number">2</td>
+      <td class="ingredient">Tomatoes</td>
+    </tr>
+    <tr>
+      <td class="number">A pack of</td>
+      <td class="ingredient">Cilantro</td>
+    </tr>
+    <tr>
+      <td class="number">A pinch of</td>
+      <td class="ingredient">Salt</td>
+    </tr>
+    <tr>
+      <td class="number">A pinch of</td>
+      <td class="ingredient">Black Pepper</td>
+    </tr>
+  </table>
   <h3 class="header" id="steps"> Steps: </h3>
   <ol>
     <li> Peel the avocados and plant the pit to have your own avocado plant.
