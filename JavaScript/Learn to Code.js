@@ -13,3 +13,8 @@ function myFunctionreverse(){
 function textboxFunction(){
     alert("I SEE YOU");
 }
+
+let x, y, z;
+x = 5;
+y = 6;
+z = x + y;
