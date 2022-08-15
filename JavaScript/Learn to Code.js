@@ -27,3 +27,6 @@ function zFunction(){
     console.log("z = x + y * x - y");
     setTimeout(() => { console.log("Did you get it?"); }, 9000);
 }
+
+//This is used to make a comment in JS.
+//It is similar to <!--...--> in HTML and /*...*/ in CSS
