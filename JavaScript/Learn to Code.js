@@ -17,7 +17,7 @@ function textboxFunction(){
 let x, y, z;
 x = 5;
 y = 6;
-z = (x + y) * (x - y);
+z = x + y * x - y;
 
 function zFunction(){
     document.getElementById("ztext").innerHTML = z;
