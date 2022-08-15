@@ -17,9 +17,13 @@ function textboxFunction(){
 let x, y, z;
 x = 5;
 y = 6;
-z = x + y;
+z = (x + y)(x - y);
 
 function zFunction(){
     document.getElementById("ztext").innerHTML = z;
-    alert("And now you know what z is!")
+    alert("As soon as you dismiss this message, you will know what z is!");
+    setTimeout(() => { alert("What is the equation used to find z?"); }, 5000);
+    setTimeout(() => { alert("Go to the console to find out..."); }, 5000);
+    console.log("z = (x + y)(x - y)")
+    setTimeout(() => { console.log("Did you get it?"); }, 5000);
 }
