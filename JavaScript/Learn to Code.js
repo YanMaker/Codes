@@ -30,3 +30,8 @@ function zFunction(){
 
 //This is used to make a comment in JS.
 //It is similar to <!--...--> in HTML and /*...*/ in CSS
+
+/*
+You use this for a multi-line comment
+It's the same set of symbols as CSS
+*/
