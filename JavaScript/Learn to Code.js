@@ -18,3 +18,8 @@ let x, y, z;
 x = 5;
 y = 6;
 z = x + y;
+
+function zFunction(){
+    document.getElementById("ztext").innerHTML = z;
+    alert("And now you know what z is!")
+}
