@@ -28,6 +28,13 @@ function zFunction(){
     setTimeout(() => { console.log("Did you get it?"); }, 9000);
 }
 
+function tempFunction(){
+    var temp = prompt("What is the temperature in Farenheit today?");
+    return (5 / 9) * (temp - 32);
+}
+
+document.getElementById(finishedTemp).innerHTML = temp + " degrees Celsius"
+
 //This is used to make a comment in JS.
 //It is similar to <!--...--> in HTML and /*...*/ in CSS
 
@@ -35,3 +42,4 @@ function zFunction(){
 You use this for a multi-line comment
 It's the same set of symbols as CSS
 */
+
