@@ -32,7 +32,7 @@ function tempFunction(){
     var temp = prompt("What is the temperature in Farenheit today?");
 }
 
-document.getElementById(finishedTemp).innerHTML = (5 / 9) * (temp - 32) + " " + "degrees Celsius!";
+printIn(temp + " degrees Celsius.");
 
 //This is used to make a comment in JS.
 //It is similar to <!--...--> in HTML and /*...*/ in CSS
