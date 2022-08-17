@@ -30,7 +30,7 @@ function zFunction(){
 
 function tempFunction(){
     var temp = prompt("What is the temperature in Farenheit today?");
-    var celsius = (5 / 9) * (temp - 32);
+    var celsius = Math.round((5 / 9) * (temp - 32));
     document.getElementById("finishedTemp").innerHTML = celsius + " degrees Celsius.";
 }
 
