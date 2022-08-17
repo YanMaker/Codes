@@ -32,7 +32,14 @@ function tempFunction(){
     var temp = prompt("What is the temperature in Farenheit today?");
     var celsius = (5 / 9) * (temp - 32);
     var finalTemp = Math.round(celsius);
-    document.getElementById("finishedTemp").innerHTML = finalTemp + " degrees Celsius.";
+    document.getElementById("finishedTemp").innerHTML = finalTemp + " degrees.";
+}
+
+function reverseTempFunction(){
+    var temp = prompt("What is the temperature in Celsius today?");
+    var farenheit = temp * (9 / 5) + 32;
+    var finalFarTemp = Math.round(farenheit);
+    document.getElementById("finishedFarTemp").innerHTML = finalTemp + " degrees.";
 }
 
 
