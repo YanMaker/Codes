@@ -30,8 +30,10 @@ function zFunction(){
 
 function tempFunction(){
     var temp = prompt("What is the temperature in Farenheit today?");
-    printIn(temp + " degrees Celsius.");
+    var celsius = (5 / 9) * (temp - 32);
+    document.getElementById("finishedTemp").innerHTML = celsius;
 }
+
 
 //This is used to make a comment in JS.
 //It is similar to <!--...--> in HTML and /*...*/ in CSS
