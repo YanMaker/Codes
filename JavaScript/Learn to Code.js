@@ -39,7 +39,7 @@ function reverseTempFunction(){
     var temp = prompt("What is the temperature in Celsius today?");
     var farenheit = temp * (9 / 5) + 32;
     var finalFarTemp = Math.round(farenheit);
-    document.getElementById("finishedFarTemp").innerHTML = finalTemp + " degrees.";
+    document.getElementById("finishedFarTemp").innerHTML = finalFarTemp + " degrees.";
 }
 
 
