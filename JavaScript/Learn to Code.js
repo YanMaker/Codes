@@ -30,9 +30,8 @@ function zFunction(){
 
 function tempFunction(){
     var temp = prompt("What is the temperature in Farenheit today?");
+    printIn(temp + " degrees Celsius.");
 }
-
-printIn(temp + " degrees Celsius.");
 
 //This is used to make a comment in JS.
 //It is similar to <!--...--> in HTML and /*...*/ in CSS
